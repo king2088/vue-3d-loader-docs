@@ -20,7 +20,7 @@ lights.value = [
   {
     type: "pointlight",
     color: "#fff",
-    position: { x: 0, y: 0, z: 400 },
+    position: { x: 0, y: 0, z: 100 },
     intensity: 1
   }
 ]
