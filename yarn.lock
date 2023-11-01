@@ -1707,7 +1707,7 @@ vite@~3.0.9:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vue-3d-loader@2.2.1:
+vue-3d-loader@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/vue-3d-loader/-/vue-3d-loader-2.2.1.tgz#a3237035b5480bfbc4dcf32637e767c25d087599"
   integrity sha512-BpD01TfA4pdXdyOKh/jhOsemrAAL4aGpv9QsZou0iavA9s5ENZmvHDh5fuFxc1p9uv8bBN2JnqIKH3eKYZL+yg==

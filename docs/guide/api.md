@@ -685,3 +685,22 @@ enableGridHelper show grid in scene
   :enableGridHelper="true"
 />
 ```
+
+## pointLightFollowCamera
+
+| Type    | Default | Required |
+| ------- | ------ | -------- |
+| boolean | false  | No       |
+
+1. Description
+
+Point light follow camera
+
+2. Use
+
+```vue
+<vue3dLoader
+  filePath="/models/ply/Lucy100k.ply"
+  :pointLightFollowCamera="true"
+/>
+```

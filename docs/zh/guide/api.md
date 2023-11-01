@@ -686,3 +686,22 @@ enableGridHelper在场景中开启或显示网格
   :enableGridHelper="true"
 />
 ```
+
+## pointLightFollowCamera
+
+| 类型    | 默认值 | 是否必填 |
+| ------- | ------ | -------- |
+| boolean | false  | No       |
+
+1. 描述
+
+点灯光跟随相机移动，默认为false
+
+2. 使用样例
+
+```vue
+<vue3dLoader
+  filePath="/models/ply/Lucy100k.ply"
+  :pointLightFollowCamera="true"
+/>
+```
