@@ -14,7 +14,7 @@ import { vue3dLoader } from "vue-3d-loader";
 const lights = ref();
 lights.value = [
   {
-    type: "pointlight",
+    type: "pointLight",
     color: "#fff",
     position: { x: 0, y: 0, z: 100 },
     intensity: 1
