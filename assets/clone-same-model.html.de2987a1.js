@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-22981b54","path":"/guide/example/clone-same-model.html","title":"Clone same model","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1712892507000,"contributors":[{"name":"king2088","email":"king6180@gmail.com","commits":1}]},"filePathRelative":"guide/example/clone-same-model.md"}');export{e as data};
