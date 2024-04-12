@@ -35,7 +35,8 @@ export const sidebarEn: SidebarConfig = {
         '/guide/example/set-vertical-horizontal.md',
         '/guide/example/enable-axes-grid.md',
         '/guide/example/min-max-distance.md',
-        '/guide/example/point-light-follow-camera.md'
+        '/guide/example/point-light-follow-camera.md',
+        '/guide/example/clone-same-model.md',
       ],
     },
   ],

@@ -1707,7 +1707,7 @@ vite@~3.0.9:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vue-3d-loader@^2.2.4:
+vue-3d-loader@2.2.4:
   version "2.2.4"
   resolved "https://registry.npmjs.org/vue-3d-loader/-/vue-3d-loader-2.2.4.tgz#675e63c71f72e612ec37109e1018d98856eea288"
   integrity sha512-93Rn9dc32aTcRB69Kxh9yae8MCaypWiPu35lQeXCOmvKFNFLwAPm7zOjHBcNJDEvVgJsEASQCE6jt+bY8RJpBQ==
