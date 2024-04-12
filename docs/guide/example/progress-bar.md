@@ -2,6 +2,10 @@
 
 <ProgressBar/>
 
+:::tip
+Using this feature, in version 1.2. x (Vue2) of the dev (development) environment, it may not be possible to obtain the correct progress of file loading. To obtain the correct progress of file loading, it may be necessary to package it and deploy it to the corresponding HTTP server before it can be obtained normally. The main reason is that the local HTTP service launched by the local webpack cannot return the correct Content-Length properly during response.
+:::
+
 ```vue
 <template>
   <div class="content">

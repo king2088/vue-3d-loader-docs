@@ -2,6 +2,10 @@
 
 <ProgressBar/>
 
+:::tip
+使用此功能，在dev（开发）环境下1.2.x版本（vue2），可能会无法正确的获取到文件加载的进度，想要正确获取文件加载的进度，可能需要打包后，将其部署到对应的http服务器中后，才可以正常获取到加载进度。主要原因是由于本地webpack启动的本地http服务在response的时候，无法正常返回正确的Content-Length导致的。
+:::
+
 ```vue
 <template>
   <div class="content">
