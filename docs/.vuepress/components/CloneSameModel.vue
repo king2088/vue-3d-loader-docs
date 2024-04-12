@@ -17,7 +17,7 @@
 import { vue3dLoader } from "vue-3d-loader";
 import { ref } from "vue";
 const positon = ref();
-const filePath = '/models/gltf/DamagedHelmet.gltf'
+const filePath = '/vue-3d-loader-docs/models/gltf/DamagedHelmet.gltf'
 const vue3dLoaderRef = ref();
 
 positon.value = {
