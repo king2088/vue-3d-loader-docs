@@ -1,0 +1,1 @@
+var e=`/vue-3d-loader-docs/wxpay.jpg`,t=`/vue-3d-loader-docs/alipay.jpg`;export{e as n,t};

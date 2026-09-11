@@ -1,0 +1,1 @@
+import{a as e,d as t,h as n,x as r}from"./app-CKmTX2Ks.js";import{Nt as i}from"./index-NF-TEt8V-BFZG7E4O.js";var a=t({__name:`LoadJsonModel`,setup(t){return(t,a)=>(n(),e(r(i),{filePath:`/vue-3d-loader-docs/models/json/lightmap.json`,height:350,backgroundColor:`#F2F2F2`}))}});export{a as default};

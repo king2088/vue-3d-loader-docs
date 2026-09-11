@@ -1,0 +1,1 @@
+import{a as e,d as t,h as n,x as r}from"./app-CKmTX2Ks.js";import{Nt as i}from"./index-NF-TEt8V-BFZG7E4O.js";var a=t({__name:`HeightAndWidth`,setup(t){return(t,a)=>(n(),e(r(i),{filePath:`/vue-3d-loader-docs/models/gltf/DamagedHelmet.gltf`,backgroundColor:`rgb(216,217,219)`,height:600,width:600,outputEncoding:`sRGB`,style:{margin:`0 auto`}}))}});export{a as default};
