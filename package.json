@@ -1,6 +1,6 @@
 {
   "name": "vue-3d-loader-docs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue-3d-loader documents",
   "main": "index.js",
   "author": "Tony Tao <king6180@gmail.com>",
@@ -10,10 +10,13 @@
     "docs:build": "vuepress build docs && node ./scripts/build.js"
   },
   "devDependencies": {
-    "@vuepress/plugin-register-components": "^2.0.0-beta.51",
-    "vuepress": "2.0.0-beta.50"
+    "@vuepress/bundler-vite": "^2.0.0-rc.31",
+    "@vuepress/plugin-register-components": "^2.0.0-rc.134",
+    "@vuepress/theme-default": "^2.0.0-rc.134",
+    "sass-embedded": "^1.104.0",
+    "vuepress": "2.0.0-rc.31"
   },
   "dependencies": {
-    "vue-3d-loader": "^2.2.4"
+    "vue-3d-loader": "^3.0.1"
   }
 }

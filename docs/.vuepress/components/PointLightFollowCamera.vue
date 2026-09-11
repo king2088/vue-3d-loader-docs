@@ -17,7 +17,7 @@ lights.value = [
     type: "point", // or pointLight
     color: "#ffffff",
     position: { x: 0, y: 0, z: 400 },
-    intensity: 1
+    intensity: 200
   }
 ]
 </script>

@@ -21,9 +21,9 @@ const filePath = '/vue-3d-loader-docs/models/gltf/DamagedHelmet.gltf'
 const vue3dLoaderRef = ref();
 
 positon.value = {
-    x: 0,
-    y: 0,
-    z: 0,
+    x: 13,
+    y: 4,
+    z: 2,
 };
 
 const cloneObj = () => {

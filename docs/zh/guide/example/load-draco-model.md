@@ -1,7 +1,7 @@
 # 加载Draco压缩模型
 
 :::tip
-使用此功能需要下载[draco解码器](https://github.com/king2088/vue-3d-loader/blob/master/public/assets/draco.7z)，并解压放到本地项目assets目录中，draco路径应为：“assets/draco/gltf/”
+使用此功能需要下载[draco解码器](https://github.com/king2088/vue-3d-loader/blob/master/public/assets/draco.7z)或者到[CDN](https://cdn.jsdelivr.net/npm/three@0.185.0/examples/jsm/libs/draco/)下载，并解压放到本地项目public/assets目录中，draco默认路径应：“assets/draco/gltf/”，若你把draco直接放到public中，即public/draco，那可以直接使用public/draco/gltf/即可，目录最后的“/”可有可无
 :::
 <LoaderDracoModel/>
 

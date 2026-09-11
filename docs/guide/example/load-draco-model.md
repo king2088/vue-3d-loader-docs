@@ -1,7 +1,7 @@
 # Loader draco model
 
 :::tip
-Need to download Draco repository storage with local static folder of your project, download url: [Draco decoder](https://github.com/king2088/vue-3d-loader/blob/master/public/assets/draco.7z)，Unzip it and place it in the assets directory of your local project. The draco path should be："assets/draco/gltf/"
+Need to download Draco repository storage with local static folder of your project, download url: [Draco decoder](https://github.com/king2088/vue-3d-loader/blob/master/public/assets/draco.7z) or download on [CDN](https://cdn.jsdelivr.net/npm/three@0.185.0/examples/jsm/libs/draco/)，Unzip it and place it in the `public/assets` directory of your local project. The draco default path is："assets/draco/gltf/"，if you want to change it, you can modify the `dracoDir` property. Example：if the `dracoDir` directory is `public/draco/gltf/` ，you can modify the `dracoDir` property to `public/draco/gltf/`, the last `/` is not required.
 :::
 <LoaderDracoModel/>
 

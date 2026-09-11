@@ -2,10 +2,11 @@
     <vue3dLoader
         filePath="/vue-3d-loader-docs/models/collada/stormtrooper/stormtrooper.dae"
         :height="500"
-        :scale="{ x: 0.2, y: 0.2, z: 0.2 }"
+        :scale="{ x: 2, y: 2, z: 2 }"
         :enableAxesHelper="enableAxesHelper"
         :axesHelperSize="axesHelperSize"
         :enableGridHelper="enableGridHelper"
+        :cameraPosition="{x: 0,y: 50,z: 0}"
         v-if="show"
     />
 </template>

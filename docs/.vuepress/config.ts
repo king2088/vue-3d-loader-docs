@@ -1,6 +1,7 @@
 import process from 'node:process'
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from '@vuepress/utils'
 import { head, navbarEn, navbarZh, sidebarEn, sidebarZh } from './configs'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
@@ -10,6 +11,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig({
   base: '/vue-3d-loader-docs/',
+  bundler: viteBundler(),
   head,
   locales: {
     '/': {

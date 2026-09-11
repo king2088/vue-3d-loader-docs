@@ -25,6 +25,7 @@
       :verticalCtrl="verticalCtrl"
       :horizontalCtrl="horizontalCtrl"
       :height="500"
+      :cameraPosition="{x: 10,y: 0,z: 0,}"
     />
   </div>
 </template>
